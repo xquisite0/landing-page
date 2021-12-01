@@ -1,7 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .header, .start {
     background-color: #1F2937;
+    margin: -10px;
 }
 
-.header ul {
-    list-style-type: none;
+.header {
+    display: flex;
+    padding: 50px;
+}
+.links {
+    display: flex;
+    margin-left: auto;
+    gap: 8px;
+}
+
+.header .link {
+    margin-left: auto;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.start .heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.start .text, .header .link {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+
+.start {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+
+.start img {
+    max-width: 50%;
+}
+.start-texts {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 20px;
+    align-self: flex-start;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+.info {
+    max-width: 200px;
+}
+.info img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.information-heading {
+    font-weight: 800;
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.information {
+    margin: 30px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: thin;
+    color: #1F2937;
+}
+
+.author {
+    margin-left: auto;
+}
+
+.cta {
+    background-color: #3882F6;
+    margin: 100px 150px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.cta-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta button {
+    border-color: white;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #E5E7EB;
+    margin: -10px;
 }

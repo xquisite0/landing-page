@@ -6,41 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='style.css'>
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class='header'>
-        <ul>
-            <li>Header Logo</li>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
+        <div id='header-logo'>Header Logo</div>
+        <div class='links'>
+            <div class='link'>header link one</div>
+            <div class='link'>header link two</div>
+            <div class='link'>header link three</div>
+        </div>
     </div>
 
     <div class='start'>
-        <div class='heading'>This website is awesome</div>
-        <div class='text'>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
-        <button>Sign Up</button>
-        <div class='start-image'>this is a placeholder for an image</div>
+        <div class='start-texts'>
+            <div class='heading'>This website is awesome</div>
+            <div class='text'>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+            <button>Sign Up</button>
+        </div>
+        <img src='images/study.jpg' id='study' alt='Someone writing on a book'>
     </div>
 
     <div class='information'>
         <div class='information-heading'>Some random information.</div>
-        <div>
-            <img>
-            <div class='text'>this is some subtext under an illustration or image</div>
-        </div>
-        <div>
-            <img>
-            <div class='text'>this is some subtext under an illustration or image</div>
-        </div>
-        <div>
-            <img>
-            <div class='text'>this is some subtext under an illustration or image</div>
-        </div>
-        <div>
-            <img>
-            <div class='text'>this is some subtext under an illustration or image</div>
+        <div class='informations'>
+            <div class='info'>
+                <img src='images/hand-raising.jpg' alt='Kids in a classroom raising their hands'>
+                <div class='text'>this is some subtext under an illustration or image</div>
+            </div>
+            <div class='info'>
+                <img src='images/hand-raising.jpg' alt='Kids in a classroom raising their hands'>
+                <div class='text'>this is some subtext under an illustration or image</div>
+            </div>
+            <div class='info'>
+                <img src='images/hand-raising.jpg' alt='Kids in a classroom raising their hands'>
+                <div class='text'>this is some subtext under an illustration or image</div>
+            </div>
+            <div class='info'>
+                <img src='images/hand-raising.jpg' alt='Kids in a classroom raising their hands'>
+                <div class='text'>this is some subtext under an illustration or image</div>
+            </div>
         </div>
     </div>
 
@@ -50,8 +57,10 @@
     </div>
 
     <div class='cta'>
-        <div class='cta-title'>Call to action! It's time!</div>
-        <div class='cta-text'>Sign up for our product by clicking that button right over there!</div>
+        <div class='cta-words'>
+            <div class='cta-title'>Call to action! It's time!</div>
+            <div class='cta-text'>Sign up for our product by clicking that button right over there!</div>
+        </div>
         <button>Sign up</button>
     </div>
 
